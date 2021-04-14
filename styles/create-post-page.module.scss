@@ -1,0 +1,74 @@
+.pageTitle{
+    text-align: center;
+    padding: 25px 0px;
+    font-size: 40px;
+    @media screen and (max-width: 426px) {
+        font-size: 33px;       
+    }
+}
+.file_image{
+    max-width: 100vw;
+    display: block;
+    max-height: 50vh;
+    margin: 0 auto;
+}
+
+.fileInput{
+    display: none;
+}
+
+.fileBtn{
+    display: block;
+    border: 1px dashed #9da2ad;
+    padding-top: 120px;
+    min-height: 300px;
+    max-width: 650px;
+    width: 100%;
+    background: url('../public/add-pictures.png') no-repeat center;
+    outline: none;
+    cursor: pointer;
+    transition: all .2s linear;
+    color: #7e838e;
+    font-size: 13px;
+    margin: 10px auto;
+    &:hover{
+        background-color: rgba(0,0,0,.02);
+        border-color: #9da2ad;
+    }
+}
+
+.change_file_btn{
+    display: block !important;
+    margin: 20px auto !important;
+    background-color: green !important;
+    &:hover{
+        background: #015001 !important;
+    }
+}
+
+.title_input{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+.rubric_select{
+    display: block;
+    margin: 15px auto;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    appearance: none;            /* remove arrow */
+    -webkit-appearance: none;    /* remove arrow Chrome */
+    -moz-appearance: none;       /* remove arrow FF */
+    &::-ms-expand{
+        display: none;  /* remove arrow IE */
+    }   
+}
+
+.create_post_btn{
+    width: 100%;
+    font-size: 1rem !important;
+    margin: 20px 0px !important;
+}

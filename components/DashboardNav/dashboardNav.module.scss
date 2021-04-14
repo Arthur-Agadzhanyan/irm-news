@@ -1,0 +1,43 @@
+.navigation{
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+.list{
+    width: 250px;
+}
+
+.leftBar{
+    z-index: 1000000000;
+}
+
+.fullList{
+    width: auto;
+}
+
+.appBar{
+    color: #fff !important;
+    background: #000 !important;
+    padding: 0px 5px;
+    z-index: 2;
+}
+
+.nav_title{
+    padding: 15px 0px 0px 16px;
+
+}
+
+.nav_subtitle{
+    padding: 5px 16px;
+
+}
+
+.bar_title{
+    font-size: 1.5rem !important;
+}
+@media screen and (max-width: 400px){
+    .bar_title{
+        font-size: 1.22rem !important;
+    }
+}

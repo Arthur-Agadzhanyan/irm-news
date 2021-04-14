@@ -1,0 +1,102 @@
+.page_title{
+    margin: 40px 0px;
+    font-size: 36px;
+    @media screen and (max-width: 489px){
+        font-size: 24px;
+        text-align: left;
+    }
+}
+
+.private_policy{    
+    .page_title{
+        text-align: center;
+    }
+    .block{
+        margin: 20px 0px;
+        .block__title{
+            padding: 10px 0px;
+            font-size: 31px;
+        @media screen and (max-width: 380px) {
+            font-size: 24px;
+        }
+        }
+        .block__text{
+            line-height: 33px;
+            font-size: 20px;
+            margin: 25px 0px;
+            @media screen and (max-width: 380px) {
+                font-size: 17px; 
+                line-height: 30px;
+                margin: 15px 0px;
+
+            }
+        }
+        &:last-child{
+            padding-bottom: 50px;
+        }
+    }
+}
+
+.sales{
+    .contacts{
+        margin-top: -5px;
+        .contacts__block{
+            padding: 20px 0px;
+            font-size: 24px;
+            .name{
+                padding-bottom: 14px;
+                font-weight: bold;
+                span{
+                    font-weight: normal;
+                }
+                .phone{
+                    letter-spacing: 1px;
+                }
+            }
+            .mail_block{
+                a{
+                    color: #4d9e99;
+                }
+            }
+            @media screen and (max-width: 544px){
+                font-size: 20px;
+                .name{
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+.about_us{
+    padding-bottom: 70px;
+   .text{
+    line-height: 33px;
+    font-size: 23px;
+    margin: 25px 0px;
+    @media screen and (max-width: 380px) {
+        font-size: 19px; 
+        margin: 15px 0px;
+    }
+   } 
+   h2{
+    font-size: 27px;
+    margin: 25px 0px;
+    @media screen and (max-width: 380px) {
+        font-size: 20px;
+    }
+   }
+   a{
+    color: #4d9e99;
+   }
+   .idea{
+    h2{
+        margin: 30px 0px 15px 0px;
+    }
+   }
+   ul{
+       @media screen and (max-width: 1136px){
+           padding: 0px 10px;
+       }
+   }
+}

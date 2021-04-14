@@ -1,0 +1,122 @@
+.wrapper{
+    margin-top: 20vh;
+    margin-bottom: 35px;
+    z-index: -2;
+}
+
+
+.container{
+    max-width: 530px;
+    position: relative;
+    z-index: 100;
+    margin: 0 auto;
+    padding: 100px 60px 45px 60px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 16px #ccc;
+}
+
+
+.title{
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.input{
+    width: 100%;
+    padding: 10px 10px 10px 15px;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.link{
+    padding: 10px 35px;
+    margin: 0 auto;
+    font-size: 19px;
+    text-decoration: none;
+    color: #fff;
+    background: #202020;
+    border: 1px solid #202020;
+    transition: all .2s linear;
+    &:hover{
+        color:#202020;
+        background: #fff;
+    }
+}
+
+.btn{
+    background: #202020;
+    color:#fff;
+    border: 1px solid #202020;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    transition: all .2s linear;
+    &:hover{
+        background: transparent;
+        color:#202020;
+    }
+}
+
+.text{
+    color:rgb(138, 138, 138);
+    padding-bottom: 20px;
+}
+
+.auth_text{
+    padding-top: 40px;
+    a{
+        color: #202020;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .particles{
+        display: none;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 559px){
+    .container{
+        max-width: 530px;
+        position: relative;
+        z-index: 1000000000000;
+        margin: 0 auto;
+        padding: 50px 60px 45px 60px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width: 427px){
+    .wrapper{
+        margin-top: 15vh;
+        margin-bottom: 35px;
+        z-index: -2;
+    }
+    .container{
+        padding: 0px 30px 45px 30px;
+        background: #fff;
+    }
+}
+
+@media screen and (max-width: 393px){
+    .wrapper{
+        margin-top: none;
+        margin-bottom: 35px;
+        z-index: -2;
+    }
+    .container{
+        padding: 0px 30px 0px 30px;
+        background: #fff;
+    }
+}

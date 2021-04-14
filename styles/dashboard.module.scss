@@ -1,0 +1,17 @@
+.title{
+    text-align: center;
+    padding: 25px 0px;
+    font-size: 40px;
+    @media screen and (max-width: 426px) {
+        font-size: 33px;       
+    }
+}
+
+.no_posts{
+    text-align: center;
+    box-shadow: 0px 0px 16px #ccc;
+    padding: 15px;
+    max-width: 630px;
+    margin: 0 auto;
+    font-size: 23px;
+}

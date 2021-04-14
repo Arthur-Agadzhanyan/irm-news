@@ -1,0 +1,27 @@
+{
+  "name": "cooking-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/data-grid": "^4.0.0-alpha.20",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@tinymce/tinymce-react": "^3.10.3",
+    "@zeit/next-sass": "^1.0.1",
+    "firebase": "^8.2.7",
+    "next": "10.0.6",
+    "next-seo": "^4.19.0",
+    "node-sass": "^5.0.0",
+    "nodemailer": "^6.5.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-firebase-hooks": "^2.2.0",
+    "react-html-parser": "^2.0.2"
+  }
+}
